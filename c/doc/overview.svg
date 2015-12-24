@@ -1,0 +1,436 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="297mm"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.5 r10040"
+   sodipodi:docname="uebersicht.svg">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.7587415"
+     inkscape:cx="353.67327"
+     inkscape:cy="660.78969"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     inkscape:window-width="1024"
+     inkscape:window-height="745"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Ebene 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       sodipodi:type="star"
+       style="fill:#cccccc;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       id="path2985"
+       sodipodi:sides="3"
+       sodipodi:cx="215.71429"
+       sodipodi:cy="189.50504"
+       sodipodi:r1="368.08661"
+       sodipodi:r2="184.0433"
+       sodipodi:arg1="0.52359878"
+       sodipodi:arg2="1.5707963"
+       inkscape:flatsided="false"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       d="m 534.48665,373.54834 -318.77235,0 -318.77236,0 L 56.328115,97.483387 215.7143,-178.58157 375.10047,97.483379 z"
+       inkscape:transform-center-y="-97.811692"
+       transform="matrix(1.0214102,0,0,1.0629203,128.52662,206.46629)" />
+    <path
+       sodipodi:type="star"
+       style="fill:#cccccc"
+       id="path2987"
+       sodipodi:sides="3"
+       sodipodi:cx="380"
+       sodipodi:cy="330.93361"
+       sodipodi:r1="142.34193"
+       sodipodi:r2="71.170962"
+       sodipodi:arg1="0.78539816"
+       sodipodi:arg2="1.8325957"
+       inkscape:flatsided="false"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       d="M 480.65095,431.58457 361.5796,399.67949 242.50825,367.77443 l 87.16628,-87.16627 87.16627,-87.16629 31.90507,119.07135 z"
+       inkscape:transform-center-x="18.420401"
+       inkscape:transform-center-y="-18.420401" />
+    <path
+       sodipodi:type="star"
+       style="fill:#4d4d4d"
+       id="path2989"
+       sodipodi:sides="3"
+       sodipodi:cx="102.85714"
+       sodipodi:cy="319.50504"
+       sodipodi:r1="168.57748"
+       sodipodi:r2="82.713196"
+       sodipodi:arg1="0.52359878"
+       sodipodi:arg2="1.5707963"
+       inkscape:flatsided="false"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       d="M 248.84952,403.79378 102.85714,402.21823 -43.135245,403.79378 31.22541,278.14844 102.85714,150.92755 174.48887,278.14844 z"
+       inkscape:transform-center-y="-78.228657"
+       transform="matrix(1.8166525,0,0,1.8562056,159.63354,-181.44483)" />
+    <text
+       xml:space="preserve"
+       style="font-size:18px;font-style:normal;font-weight:bold;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ececec;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans Bold"
+       x="99.294342"
+       y="563.10413"
+       id="text2991"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan2993"
+         x="99.294342"
+         y="563.10413">DS1621</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:18px;font-style:normal;font-weight:bold;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans Bold"
+       x="62.857143"
+       y="596.64789"
+       id="text2995"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan2997"
+         x="62.857143"
+         y="596.64789">Thermometer</tspan></text>
+    <path
+       sodipodi:type="star"
+       style="fill:#cccccc"
+       id="path2999"
+       sodipodi:sides="3"
+       sodipodi:cx="338.57144"
+       sodipodi:cy="483.79074"
+       sodipodi:r1="77.26181"
+       sodipodi:r2="37.90881"
+       sodipodi:arg1="0.52359878"
+       sodipodi:arg2="1.5707963"
+       inkscape:flatsided="false"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       d="m 405.48213,522.42165 -66.91069,-0.7221 -66.91069,0.7221 34.0807,-57.58531 32.82999,-58.30741 32.82999,58.30741 z"
+       inkscape:transform-center-y="-19.315453"
+       transform="translate(14.241469,21.711992)" />
+    <path
+       sodipodi:type="star"
+       style="fill:#cccccc"
+       id="path3001"
+       sodipodi:sides="3"
+       sodipodi:cx="442.85715"
+       sodipodi:cy="409.50504"
+       sodipodi:r1="82.412598"
+       sodipodi:r2="40.436062"
+       sodipodi:arg1="0.52359878"
+       sodipodi:arg2="1.5707963"
+       inkscape:flatsided="false"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       d="m 514.22855,450.71133 -71.3714,-0.77023 -71.37141,0.77023 36.35275,-61.42432 35.01866,-62.19457 35.01865,62.19456 z"
+       inkscape:transform-center-y="-20.60315"
+       transform="translate(60.697694,93.470445)" />
+    <text
+       xml:space="preserve"
+       style="font-size:18px;font-style:normal;font-weight:bold;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans Bold"
+       x="307.12073"
+       y="536.97363"
+       id="text3003"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3005"
+         x="307.12073"
+         y="536.97363">LCD_View</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:18px;font-style:normal;font-weight:bold;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans Bold"
+       x="450.68661"
+       y="536.97363"
+       id="text3007"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3009"
+         x="450.68661"
+         y="536.97363">UART_View</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:18px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="20"
+       y="229.50504"
+       id="text3011"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3013"
+         x="20"
+         y="229.50504">thermometer_update</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:18px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="17.142857"
+       y="138.07648"
+       id="text3015"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3017"
+         x="17.142857"
+         y="138.07648">thermometer_add_view</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:18px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="17.142857"
+       y="159.50505"
+       id="text3019"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3021"
+         x="17.142857"
+         y="159.50505">thermometer_del_view</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:18px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="18.571428"
+       y="206.6479"
+       id="text3023"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="18.571428"
+         y="206.6479"
+         id="tspan3027">thermometer_set_unit</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:18px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="17.142857"
+       y="95.219315"
+       id="text3031"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3033"
+         x="17.142857"
+         y="95.219315">thermometer_get_unit</tspan><tspan
+         sodipodi:role="line"
+         x="17.142857"
+         y="117.71931"
+         id="tspan3035" /></text>
+    <text
+       xml:space="preserve"
+       style="font-size:18px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="17.142859"
+       y="70.933609"
+       id="text3037"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3039"
+         x="17.142859"
+         y="70.933609">thermometer_get_temperature</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:18px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="17.142857"
+       y="48.076469"
+       id="text3041"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3043"
+         x="17.142857"
+         y="48.076469">thermometer_set_model</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:20px;font-style:normal;font-weight:bold;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans Bold"
+       x="456.80225"
+       y="63.084972"
+       id="text3045"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3047"
+         x="456.80225"
+         y="63.084972">Top-Level-Controller</tspan><tspan
+         sodipodi:role="line"
+         x="456.80225"
+         y="88.084969"
+         id="tspan3119" /><tspan
+         sodipodi:role="line"
+         x="456.80225"
+         y="113.08497"
+         id="tspan3115" /></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 454.28571,63.790754 -88.57142,0"
+       id="path3049"
+       inkscape:connector-curvature="0" />
+    <text
+       xml:space="preserve"
+       style="font-size:20px;font-style:normal;font-weight:bold;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans Bold"
+       x="510"
+       y="192.36218"
+       id="text3051"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="510"
+         y="192.36218"
+         id="tspan3137">Data Model</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.03806746px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 501.42857,190.93361 -109.2978,0"
+       id="path3055"
+       inkscape:connector-curvature="0" />
+    <text
+       xml:space="preserve"
+       style="font-size:20px;font-style:normal;font-weight:bold;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans Bold"
+       x="594.28571"
+       y="420.93362"
+       id="text3059"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="594.28571"
+         y="420.93362"
+         id="tspan3067">Views on the</tspan><tspan
+         sodipodi:role="line"
+         x="594.28571"
+         y="445.93362"
+         id="tspan3042">data model</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 595.71429,410.93361 -238.57143,0"
+       id="path3069"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 357.83184,410.77688 0.25632,20.76245"
+       id="path3075"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 505.73225,423.5932 0.51265,-12.30367"
+       id="path3077"
+       inkscape:connector-curvature="0" />
+    <path
+       sodipodi:type="star"
+       style="fill:#999999"
+       id="path3087"
+       sodipodi:sides="3"
+       sodipodi:cx="149.35019"
+       sodipodi:cy="526.01154"
+       sodipodi:r1="83.308884"
+       sodipodi:r2="40.875828"
+       sodipodi:arg1="0.52359878"
+       sodipodi:arg2="1.5707963"
+       inkscape:flatsided="false"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       d="m 221.4978,567.66598 -72.14761,-0.77862 -72.147611,0.77862 36.748101,-62.09236 35.39951,-62.87097 35.3995,62.87097 z"
+       inkscape:transform-center-y="-20.827221"
+       transform="translate(52.899144,-23.435391)" />
+    <text
+       xml:space="preserve"
+       style="font-size:18px;font-style:normal;font-weight:bold;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans Bold"
+       x="153.32089"
+       y="537.45197"
+       id="text3091"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3093"
+         x="153.32089"
+         y="537.45197">I²C-Slave</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:18px;font-style:normal;font-weight:bold;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans Bold"
+       x="195.79005"
+       y="646.38574"
+       id="text3097"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3099"
+         x="195.79005"
+         y="646.38574">Data source</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:18px;font-style:normal;font-weight:bold;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans Bold"
+       x="401.65756"
+       y="646.38574"
+       id="text3101"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3103"
+         x="401.65756"
+         y="646.38574">Data sinks</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 234.97934,629.21214 0,-85.76017"
+       id="path3107"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 426.85473,629.94355 0,-47.7448"
+       id="path3109"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 465.84627,543.45197 -38.95154,38.95154 -38.95154,-38.95154"
+       id="path3113"
+       inkscape:connector-curvature="0" />
+    <text
+       xml:space="preserve"
+       style="font-size:20px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="456.80225"
+       y="90.089958"
+       id="text3123"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3125"
+         x="456.80225"
+         y="90.089958">(controls dataflow from</tspan><tspan
+         sodipodi:role="line"
+         x="456.80225"
+         y="115.08996"
+         id="tspan3127">source to sink)</tspan><tspan
+         sodipodi:role="line"
+         x="456.80225"
+         y="140.08997"
+         id="tspan3044">(center of data flow)</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:20px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="507.41919"
+       y="218.08595"
+       id="text3145"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3147"
+         x="507.41919"
+         y="218.08595">(business logic)</tspan><tspan
+         sodipodi:role="line"
+         x="507.41919"
+         y="243.08595"
+         id="tspan3149">(subcontroller)</tspan></text>
+  </g>
+</svg>
