@@ -2,17 +2,17 @@
 #define THERMOMETER_HH_
 
 /**
- * @file Thermometer.hpp
+ * @file Thermometer.h
  * @author Dipl.-Inf. Falk Schilling <falk.schilling.de@ieee.org>
  * @copyright LGPLv3
  */
 
-#include "IThermometer.hpp"
+#include "IThermometer.h"
 
 /**
  * @class Thermometer
  * @brief A flexible and simple to use software asset modelling a thermometer.
- * @detail Uses the MVC compound pattern to select the driver at runtime.
+ * @details Uses the MVC compound pattern to select the driver at runtime.
  */
 
 class Thermometer
@@ -50,7 +50,7 @@ public:
 
 
     /**
-     * @brief selects the
+     * @brief selects the sensor driver to use
      * @tparam the protocol type of the sensor
      */
 

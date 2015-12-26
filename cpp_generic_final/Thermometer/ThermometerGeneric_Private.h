@@ -3,8 +3,8 @@
 #define THERMOMETER_GENERIC_PRIVATE_HPP_
 
 /**
- * @file ThermometerGenericPrivate.hpp
- * @author Falk Schilling <falk.schilling.de@ieee.org>
+ * @file ThermometerGeneric_Private.h
+ * @author Dipl.-Inf. Falk Schilling <falk.schilling.de@ieee.org>
  * @copyright LGPLv3
  */
 

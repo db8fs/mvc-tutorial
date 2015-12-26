@@ -24,7 +24,7 @@ static IThermometer* create( I2C_Client & dev, IThermometer::Type type )
     switch( type )
     {
     case IThermometer::TYPE_DS1621:
-        return new ThermometerGeneric<I2C_Client, SensorDS1621>( dev );
+        return new ThermometerGeneric<I2C_Client, Sensor_DS1621>( dev );
 
     default:
         break;

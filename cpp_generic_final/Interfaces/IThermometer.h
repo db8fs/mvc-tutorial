@@ -2,7 +2,7 @@
 #ifndef ITHERMOMETERMODEL_HPP_
 #define ITHERMOMETERMODEL_HPP_
 
-#include "IView.hpp"
+#include "IView.h"
 
 /**
  * @interface IThermometer

@@ -1,6 +1,6 @@
 #include <stdlib.h>
 #include <stdint.h>
-#include "IView.hpp"
+#include "IView.h"
 #include "Thermometer.h"
 #include "I2C_Client.h"
 #include <stdio.h>

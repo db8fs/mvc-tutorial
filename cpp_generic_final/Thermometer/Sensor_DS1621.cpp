@@ -16,7 +16,7 @@ static float convertToFahrenheit( float value )
     return value * 1.8f / 32.f;
 }
 
-SensorDS1621::SensorDS1621()
+Sensor_DS1621::Sensor_DS1621()
     : m_value(0U),
       m_temperature(0.f),
       m_unit( IThermometer::UNIT_CELSIUS ),
@@ -26,62 +26,62 @@ SensorDS1621::SensorDS1621()
 }
 
 
-SensorDS1621::~SensorDS1621()
+Sensor_DS1621::~Sensor_DS1621()
 {
 }
 
 
-void SensorDS1621::setValue( uint16_t value )
+void Sensor_DS1621::setValue( uint16_t value )
 {
-    if( value != SensorDS1621::m_value )
+    if( value != Sensor_DS1621::m_value )
     {
-        SensorDS1621::m_value = value;
+        Sensor_DS1621::m_value = value;
         m_temperature = convertSensorValue( value );
 
-        SensorDS1621::notifyObserver();
+        Sensor_DS1621::notifyObserver();
     }
 }
 
 
-void SensorDS1621::setUnit( IThermometer::Unit unit )
+void Sensor_DS1621::setUnit( IThermometer::Unit unit )
 {
-    if( unit != SensorDS1621::m_unit )
+    if( unit != Sensor_DS1621::m_unit )
     {
-        SensorDS1621::m_unit = unit;
-        SensorDS1621::notifyObserver();
+        Sensor_DS1621::m_unit = unit;
+        Sensor_DS1621::notifyObserver();
     }
 }
 
 
-float SensorDS1621::getTemperature() const
+float Sensor_DS1621::getTemperature() const
 {
-    if( SensorDS1621::m_unit == IThermometer::UNIT_FAHRENHEIT )
+    if( Sensor_DS1621::m_unit == IThermometer::UNIT_FAHRENHEIT )
     {
         return convertToFahrenheit( m_temperature  );
     }
 
-    return SensorDS1621::m_temperature;
+    return Sensor_DS1621::m_temperature;
 }
 
 
-IThermometer::Unit SensorDS1621::getUnit() const
+IThermometer::Unit Sensor_DS1621::getUnit() const
 {
-    return SensorDS1621::m_unit;
+    return Sensor_DS1621::m_unit;
 }
 
-IThermometer::Type SensorDS1621::getType() const
+IThermometer::Type Sensor_DS1621::getType() const
 {
     return IThermometer::TYPE_DS1621;
 }
 
 
-void SensorDS1621::setObserver( void* obj, void (*callback)(void*) )
+void Sensor_DS1621::setObserver( void* obj, void (*callback)(void*) )
 {
     m_obj = obj;
     m_callback = callback;
 }
 
-void SensorDS1621::notifyObserver()
+void Sensor_DS1621::notifyObserver()
 {
     if( NULL != m_obj && NULL != m_callback)
     {

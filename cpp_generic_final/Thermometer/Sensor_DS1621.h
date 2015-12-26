@@ -1,14 +1,14 @@
 #ifndef SENSOR_DS1621_HPP_
 #define SENSOR_DS1621_HPP_
 
-#include "IThermometer.hpp"
+#include "IThermometer.h"
 
 /**
- * @class SensorDS1621
+ * @class Sensor_DS1621
  * @brief Maxim DS1621
  */
 
-class SensorDS1621
+class Sensor_DS1621
 {
     //! sensor value [sensor's 9-bit representation]
     uint16_t m_value;
@@ -29,11 +29,11 @@ class SensorDS1621
     void notifyObserver();
 
 public:
-    SensorDS1621();
+    Sensor_DS1621();
 
 
     //! destruction
-    ~SensorDS1621();
+    ~Sensor_DS1621();
 
 
     /**

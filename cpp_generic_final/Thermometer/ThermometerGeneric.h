@@ -3,13 +3,13 @@
 #define THERMOMETER_GENERIC_HPP_
 
 /**
- * @file ThermometerGeneric.hpp
+ * @file ThermometerGeneric.h
  * @author Dipl.-Inf. Falk Schilling <falk.schilling.de@ieee.org>
  * @copyright LGPLv3
  */
 
-#include "IView.hpp"
-#include "IThermometer.hpp"
+#include "IView.h"
+#include "IThermometer.h"
 
 
 /**
