@@ -1,6 +1,12 @@
 
-#ifndef THERMOMETER_GENERIC_IMPL_HPP_
-#define THERMOMETER_GENERIC_IMPL_HPP_
+#ifndef THERMOMETER_GENERIC_PRIVATE_HPP_
+#define THERMOMETER_GENERIC_PRIVATE_HPP_
+
+/**
+ * @file ThermometerGenericPrivate.hpp
+ * @author Falk Schilling <falk.schilling.de@ieee.org>
+ * @copyright LGPLv3
+ */
 
 template< class Port, class DataModel >
 ThermometerGeneric<Port,DataModel>::ThermometerGeneric( Port & port )
@@ -95,4 +101,4 @@ void ThermometerGeneric<Port,DataModel>::delView( class IView< IThermometer > & 
 
 
 
-#endif // THERMOMETER_GENERIC_IMPL_HPP_
+#endif // THERMOMETER_GENERIC_PRIVATE_HPP_

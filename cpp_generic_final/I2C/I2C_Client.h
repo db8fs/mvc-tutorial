@@ -3,7 +3,6 @@
 
 
 /**
- * @class I2CClient
  * @brief Implements an I2C client
  */
 

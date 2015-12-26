@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdint.h>
 #include <stdlib.h>
-#include "sensor_ds1621.hpp"
+#include "Sensor_DS1621.h"
 
 
 static float convertSensorValue( uint16_t value )

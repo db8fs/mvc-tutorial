@@ -1,5 +1,5 @@
 #include <stdint.h>
-#include "i2cclient.hpp"
+#include "I2C_Client.h"
 
 extern void i2c_read_uint16( int, int, uint16_t* );
 

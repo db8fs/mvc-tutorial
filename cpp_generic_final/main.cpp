@@ -1,8 +1,8 @@
 #include <stdlib.h>
 #include <stdint.h>
 #include "IView.hpp"
-#include "thermometer.hpp"
-#include "i2cclient.hpp"
+#include "Thermometer.h"
+#include "I2C_Client.h"
 #include <stdio.h>
 #include <unistd.h>
 
@@ -12,7 +12,7 @@ void uart_puts( const char* );
 
 
 /**
- * @fn UART_Logger
+ * @class UART_Logger
  * @brief Sample View implementation for displaying values on UART
  */
 

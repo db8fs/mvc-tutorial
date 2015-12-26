@@ -1,13 +1,18 @@
 #ifndef THERMOMETER_HH_
 #define THERMOMETER_HH_
 
+/**
+ * @file Thermometer.hpp
+ * @author Dipl.-Inf. Falk Schilling <falk.schilling.de@ieee.org>
+ * @copyright LGPLv3
+ */
+
 #include "IThermometer.hpp"
 
 /**
  * @class Thermometer
  * @brief A flexible and simple to use software asset modelling a thermometer.
  * @detail Uses the MVC compound pattern to select the driver at runtime.
- * @author Dipl.-Inf. Falk Schilling <falk.schilling.de@ieee.org>
  */
 
 class Thermometer

@@ -2,20 +2,33 @@
 #ifndef THERMOMETER_GENERIC_HPP_
 #define THERMOMETER_GENERIC_HPP_
 
+/**
+ * @file ThermometerGeneric.hpp
+ * @author Dipl.-Inf. Falk Schilling <falk.schilling.de@ieee.org>
+ * @copyright LGPLv3
+ */
+
 #include "IView.hpp"
 #include "IThermometer.hpp"
 
+
 /**
  * @class ThermometerGeneric
- * @brief A policy for generation of polymorphic thermometer classes.
+ * @brief A MVP policy for generation of polymorphic thermometer classes.
+ * @tparam Port - the physical port being the data source
+ * @tparam DataModel - the sensor implementation to use
  */
 
 template< class Port, class DataModel >
 class ThermometerGeneric : public IThermometer
 {
+    //! reference to the physical port (data source)
     Port & m_port;
+
+    //! sensor implementation
     DataModel m_model;
 
+    //! maximum number of views that may be registered
     static const int MAX_VIEWS=16;
 
     //! the views being notified about changes
@@ -24,9 +37,20 @@ class ThermometerGeneric : public IThermometer
     //! callback being called by the data model
     static void sensorChanged( void* );
 
+    /**
+     * @brief notifies about changed settings
+     */
+
+    void notifyViews();
+
 public:
 
+    /**
+     * @brief construction by type conversion using the given port
+     */
+
     ThermometerGeneric( Port & port );
+
 
     /**
      * @brief triggers updates of the thermometer
@@ -75,16 +99,10 @@ public:
 
     void delView( class IView<IThermometer> & view );
 
-    /**
-     * @brief notifies about changed settings
-     */
-
-    void notifyViews();
-
 };
 
 
-#include "thermometer_generic_impl.hpp"
+#include "ThermometerGeneric_Private.h"
 
 
 #endif // THERMOMETER_GENERIC_HPP_

@@ -6,6 +6,7 @@
 
 /**
  * @interface IThermometer
+ * @brief Polymorphic base class grouping common thermometer methods.
  */
 
 class IThermometer

@@ -1,11 +1,18 @@
+
+/**
+ * @file Thermometer.cpp
+ * @author Dipl.-Inf. Falk Schilling <falk.schilling.de@ieee.org>
+ * @copyright LGPLv3
+ */
+
 #include <stdint.h>
 #include <stdlib.h>
 
-#include "i2cclient.hpp"
-#include "thermometer.hpp"
+#include "I2C_Client.h"
+#include "Thermometer.h"
+#include "ThermometerGeneric.h"
 
-#include "thermometer_generic.hpp"
-#include "sensor_ds1621.hpp"
+#include "Sensor_DS1621.h"
 
 
 /**
@@ -27,6 +34,11 @@ static IThermometer* create( I2C_Client & dev, IThermometer::Type type )
     exit(0);
 }
 
+
+/**
+ * @brief selects an I2C thermometer backend
+ */
+
 template<>
 void Thermometer::setModel<I2C_Client>( I2C_Client & port,
                                         IThermometer::Type type )
@@ -45,7 +57,10 @@ void Thermometer::setModel<I2C_Client>( I2C_Client & port,
 }
 
 
-// constructor specialization for I2C protocol
+/**
+ * @brief constructor specialization for I2C protocol
+ */
+
 template<>
 Thermometer::Thermometer<I2C_Client>(I2C_Client & dev, IThermometer::Type type)
 : m_model(NULL)
