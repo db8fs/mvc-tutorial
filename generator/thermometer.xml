@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Code>
+  
+  <!-- Interfaces to use in the design -->
+  <Interface class="IThermometer">
+  </Interface>
+  
+  <!-- Generate controller class with two selectable models -->
+  <Controller class="Thermometer">
+    <View>
+      <Method name="update" return="void" const="false" volatile="false">
+        <Param type="IThermometer" const="true" ref="true" />
+      </Method>
+    </View> 
+    
+    <!-- Thermometer driver for DS1621 IC -->
+    <Model base="IThermometer" id="DS1621">
+      
+      <!-- generate driver as presenter between port and sensor -->
+      <Presenter>
+        <Model class="Sensor_DS1621">
+        </Model>
+      </Presenter>
+    </Model>
+
+    <!-- Thermometer driver for DS1722 IC -->
+    <Model base="IThermometer" id="DS1722">
+      <Presenter>
+        <Model class="Sensor_DS1722">
+        </Model>
+      </Presenter>
+    </Model>
+
+  </Controller>
+</Code>
+

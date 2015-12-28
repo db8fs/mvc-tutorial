@@ -19,7 +19,7 @@ struct thermo_controller;
 
 /**
  * @enum   thermo_type
- * @brief  'Polymorphic' type of the MVC data model
+ * @brief  'Polymorphic' type of the MVP data model
  * @detail Selects the hardware backend for the used thermometer.
  */
 
@@ -32,7 +32,7 @@ enum thermo_type
 
 /**
  * @typedef thermo_view
- * @brief   MVC View for thermometer data model
+ * @brief   MVP View for thermometer data model
  */
 
 typedef
@@ -41,7 +41,7 @@ void (*thermo_view) ( const struct thermo_controller* const );
 
 /**
  * @enum  thermo_unit
- * @brief Part of the MVC Data Model @sa{thermo_model}
+ * @brief Part of the MVP Data Model @sa{thermo_model}
  */
 
 enum thermo_unit
@@ -68,22 +68,22 @@ void thermometer_cleanup_i2c( struct thermo_controller* );
 
 
 /**
- * @fn  thermometer_set_model
- * @brief selects the data model for the given controller
- * @param thermo_controller  the thermometer to use
- * @param thermo_type the type of the thermometer to control
- * @return the MVC data model handle
- */
-
-void thermometer_set_model( struct thermo_controller*, enum thermo_type );
-
-
-/**
  * @fn th_controller_update
  * @brief triggers updates of the thermometer
  */
 
 void thermometer_update( struct thermo_controller* );
+
+
+/**
+ * @fn  thermometer_set_model
+ * @brief selects the data model for the given controller
+ * @param thermo_controller  the thermometer to use
+ * @param thermo_type the type of the thermometer to control
+ * @return the MVP data model handle
+ */
+
+void thermometer_set_model( struct thermo_controller*, enum thermo_type );
 
 
 /**
