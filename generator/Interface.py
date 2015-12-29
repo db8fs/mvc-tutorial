@@ -6,6 +6,7 @@ from DesignElement import *
 """
 
 class Interface(DesignElement):
+    # object initializer
     def __init__(self):
         super(Interface,self).__init__()
         self._functions = []

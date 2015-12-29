@@ -1,0 +1,7 @@
+                                README
+-----------------------------------------------------------------------------
+
+GNUArchitect is a project providing mechanisms for creation of software
+design elements. It shall help programmers to create coherent and decoupled
+software architectures. As first step the codegenerating will be done from
+a hierarchical XML description only supporting few features.
